@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="geral.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-    <header>
+    <header id="cabecalho-principal">
         <h1>Meu nome é Edu</h1>
         <p>Esse é um site com informações sobre mim.</p>
     </header>
 
-    <nav>
+    <nav class="menu-navegacao">
         <ul>
             <li><a href="index.html">Sobre mim</a></li>
             <li><a href="cidade.html">Minha cidade</a></li>
@@ -24,27 +26,28 @@
 
     <main>
         
-        <section>
+        <section class="secao-sobre-mim">
             <h2>Quem sou eu?</h2>
             <p>Meu nome é Edu, sou estudante de Sistemas de Informação e este é o meu projeto da disciplina de Desenvolvimento Web 1.</p>          
-            <img src="imagens/pfp.jpg" alt="Jeff">
+            <img src="imagens/pfp.jpg" alt="Edu" class="foto-perfil">
         </section>
 
-        <section>
+        <section class="secao-sobre-mim">
             <h2>O que eu gosto de fazer</h2>
             <p>Um dos meus maiores interesses é a <strong>jogar</strong>. Eu gosto de passar meu tempo jogando sozinho ou com amigos, de preferência <em>jogos de estratégia</em> em que preciso pensar bastante pra passar das fases.</p>
         </section>
 
-        <section>
+        <section class="secao-sobre-mim">
             <h2>Contato e Redes Sociais</h2>
             <ul>
                 <li><a href="https://github.com/EduOceano" target="_blank">Meu GitHub</a></li>
             </ul>
         </section>
 
+        <a href="#" id="voltar-topo">↑ Topo</a>
+
     </main>
 
-    <!-- RODAPÉ DO SITE -->
     <footer>
         <p>&copy; 2026 - Desenvolvido por EduOceano.</p>
     </footer>

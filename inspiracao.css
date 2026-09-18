@@ -1,0 +1,36 @@
+.cartao-inspiracao {
+    background-color: #ffffff;
+    border: 1px solid #cccccc; 
+    margin: 50px auto;
+    padding: 40px;
+    width: 60%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.citacao-inspiradora {
+    font-style: italic;
+    font-size: 1.5em;
+    color: #0a2259;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f2c029;
+    padding-bottom: 15px;
+}
+
+.nome-autor {
+    text-align: right;
+    font-weight: bold;
+    color: #f2c029;
+    font-size: 1.1rem;
+}
+
+.cartao-inspiracao h2 {
+    text-align: center;
+}
+
+.cartao-inspiracao img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px; 
+}

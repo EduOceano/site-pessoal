@@ -1,0 +1,15 @@
+.secao-sobre-mim {
+    background-color: #ffffff;
+    margin: 30px auto; 
+    padding: 20px;
+    width: 80%;
+    border: 2px solid #0a2259;
+    border-radius: 8px;
+}
+
+.foto-perfil {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto;
+}

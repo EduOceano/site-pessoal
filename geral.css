@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #f4f1ea;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho-principal {
+    background-color: #0a2259;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu-navegacao {
+    background-color: #0a2259;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-navegacao a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu-navegacao a:hover {
+    color: #f2c029;
+}
+
+#voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0a2259;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#voltar-topo:hover {
+    background-color: #f2c029;
+    color: #0a2259;
+}
+
+@media (max-width: 768px) {
+    .menu-navegacao {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+    }
+
+    .secao-sobre-mim, 
+    .sessao-sonho, 
+    .cartao-inspiracao, 
+    .galeria-obras {
+        margin: 20px 2%;
+        width: 96%;
+    }
+
+    .obra-de-arte {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .obra-de-arte img {
+        width: 100%;
+    }
+}

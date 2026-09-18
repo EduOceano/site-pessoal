@@ -1,0 +1,29 @@
+.galeria-obras {
+    background-color: #0a2259;
+    color: #f4f1ea;
+    padding: 40px;
+    margin: 30px 5%;
+    border: 5px double #f2c029; 
+}
+
+.obra-de-arte {
+    display: inline-block; 
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.obra-de-arte img {
+    width: 250px; 
+    height: auto;
+    border: 1px solid #333333;
+}
+
+.legenda-obra {
+    font-weight: bold;
+    color: #0a2259;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
